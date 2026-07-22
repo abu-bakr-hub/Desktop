@@ -1,6 +1,6 @@
 /*
 Question: What are the top-paying data analyst jobs?
-- Identify the top 10 highest-paying Data Analyst roles that are available in the United Kingdom.
+- Identify the top 15 highest-paying Data Analyst roles that are available Anywhere .
 - Focus on job postings with specified salaries (remove nulls).
 - Why? Highlight the top-paying opportunities for Data Analysts, offering insights into employment opportunities.
 */
@@ -18,7 +18,7 @@ FROM
 LEFT JOIN company_dim on job_postings_fact.company_id = company_dim.company_id
 WHERE
     job_title_short = 'Data Analyst' 
-    AND job_location = 'United Kingdom'
+    AND job_work_from_home = True
     AND salary_year_avg IS NOT NULL
 ORDER BY 
     salary_year_avg DESC
