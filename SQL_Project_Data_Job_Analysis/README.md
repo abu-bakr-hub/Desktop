@@ -47,6 +47,7 @@ In this project, I utilised a various number of tools to conduct my analysis:
 The database contains four tables, all with unique purposes. They will all be utilised throughout the project to conduct the analysis and answer the project questions.
 
 ![Database Diagram](assets/database_diagram.png)
+
 *Figure 1: Databse schema showing relationships between the four tables used in this project. Source: Luke Barousse, SQL for Data Analytics course.* 
 
 The `job_postings_fact` table is the central table, linking to both company information and the required skills for every posting.
@@ -395,6 +396,7 @@ This query makes use of aggregate and date functions by extracting the month of 
 This query also looks at all Data Analyst job postings. This is done to broaden the scope of this project by looking into the general market of job postings and not just roles that are remote. 
 
 ![Job Postings by Month](assets/Monthly_Job_Posting_Trends_2023.png)
+
 *Figure 4: The Monthly Job Postings for Data Analyst Jobs in 2023.*
 
 Here are some of the key findings from the data:
