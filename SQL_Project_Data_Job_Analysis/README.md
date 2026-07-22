@@ -46,7 +46,7 @@ In this project, I utilised a various number of tools to conduct my analysis:
 # Database structure
 The database contains four tables, all with unique purposes. They will all be utilised throughout the project to conduct the analysis and answer the project questions.
 
-![Database Diagram](assets\database_diagram.png)
+![Database Diagram](assets/database_diagram.png)
 *Figure 1: Databse schema showing relationships between the four tables used in this project. Source: Luke Barousse, SQL for Data Analytics course.* 
 
 The `job_postings_fact` table is the central table, linking to both company information and the required skills for every posting.
@@ -85,7 +85,7 @@ LIMIT 10
 
 **Data Schema Note:** As the dataset categorises various roles under the `job_title_short` label of `'Data Analyst'`, this query successfully captures specialised roles that still fall within the data analytics postings.
 
-![Top Paying Roles](assets/Top_10_Highest-Paying_Remote_Data_Analyst_Job_Postings_(2023).png)
+![Top Paying Roles](assets/Top_10_Highest_Paying_Remote_Data_Analyst_Jobs_2023.png)
 
 *Figure 2: The Top 10 Job Postings with the highest salaries.*
 
@@ -139,7 +139,7 @@ This second query makes use of Query 1 in the form of a Common Table Expression 
 
 **Data Limitation:** One thing to mention, of the ten highest-paying postings, two (Mantys and Meta) did not contain associated skills in the dataset. As a result the skills analysis is based on the remaining eight postings.
 
-![Most Demanded Skills](assets\Most_Demanded_Skills_for_the_Top_10_Highest-Paying_Roles.png)
+![Most Demanded Skills](assets/Most_Demanded_Skills_Top_10_Highest_Paying_Roles.png)
 
 *Figure 3: The Most In-Demand skills for the highest-paying Remote Data Analyst Roles.*
 
@@ -394,7 +394,7 @@ This query makes use of aggregate and date functions by extracting the month of 
 
 This query also looks at all Data Analyst job postings. This is done to broaden the scope of this project by looking into the general market of job postings and not just roles that are remote. 
 
-![Job Postings by Month](assets\Monthly_Job_Posting_Trends_(2023).png)
+![Job Postings by Month](assets/Monthly_Job_Posting_Trends_2023.png)
 *Figure 4: The Monthly Job Postings for Data Analyst Jobs in 2023.*
 
 Here are some of the key findings from the data:
